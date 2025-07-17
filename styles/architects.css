@@ -1,3 +1,8 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -40,6 +45,7 @@
     font-weight: 600px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 main{
@@ -217,6 +223,8 @@ main > section{
 
 /* sponsor related styles */
 
+
+
 .sponsor-info{
     max-width: 540px;
     margin: 50px auto;
@@ -230,6 +238,24 @@ main > section{
 
 .sponsor-companies img{
     filter: grayscale(100%);
+}
+
+footer{
+    max-width: 1440px;
+    margin: 0px auto;
+    height: auto;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    justify-items: center;
+
+}
+
+footer p{
+    margin-top: 130px;
+    /* max-width: 620px; */
+    padding: 30px 400px;
+    align-items: center;
+    font-size: 1.25rem;
 }
 
 
@@ -273,8 +299,14 @@ main > section{
     }
 
     #experience-badge{
+        width: 350px;
         margin-top: 20px;
         margin-left: 20px;
+        font-size: 2rem;
+    }
+
+    #footer-text{
+        padding: 30px;
     }
 }
 
@@ -306,5 +338,9 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+
+    #footer-text{
+        padding: 30px;
     }
 }
